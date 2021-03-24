@@ -392,6 +392,12 @@ table a{
 	text-transform: uppercase;
 }
 
+.theme-fsu{
+	background-color: #efefef;
+	border: 4px solid #782f40;
+    color: #444444;
+}
+
 .theme-blackboard{
 	background-color: #000000;
 	border: 4px solid #5c5c5c;

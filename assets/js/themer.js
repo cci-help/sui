@@ -38,6 +38,13 @@ for (let i = 0; i < dataThemeButtons.length; i++) {
         const theme = dataThemeButtons[i].dataset.theme;
 
         switch (theme) {
+            case 'fsu':
+                setTheme({
+                    'color-background': '#efefef',
+                    'color-text-pri': '#444444',
+                    'color-text-acc': '#782f40'
+                });
+                return;
             case 'blackboard':
                 setTheme({
                     'color-background': '#1a1a1a',
